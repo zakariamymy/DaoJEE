@@ -8,7 +8,7 @@ public class CalculTest {
     @Test
     public void testSomme(){
         calcul=new Calcul();
-        double a=10; double b=20;
+        double a=50; double b=60;
         double expected=30;
         double res= calcul.somme(a,b);
         Assert.assertTrue(res==expected);
